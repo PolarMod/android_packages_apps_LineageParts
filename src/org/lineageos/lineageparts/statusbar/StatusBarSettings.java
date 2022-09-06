@@ -80,9 +80,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mNetworkTrafficPref = findPreference(NETWORK_TRAFFIC_SETTINGS);
 
         mHasCenteredCutout = DeviceUtils.hasCenteredCutout(getActivity());
-        if (mHasCenteredCutout) {
-            getPreferenceScreen().removePreference(mNetworkTrafficPref);
-        }
+        getPreferenceScreen().removePreference(mNetworkTrafficPref);
 
         mStatusBarAmPm = findPreference(STATUS_BAR_AM_PM);
         mStatusBarClock = findPreference(STATUS_BAR_CLOCK_STYLE);
