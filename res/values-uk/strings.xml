@@ -466,4 +466,5 @@
     <string name="sms_security_check_limit_title">Обмеження SMS-повідомлень</string>
     <string name="sms_security_check_limit_summary">При спробі застосунків надіслати понад %s повідомлень за хвилину буде запитано підтвердження</string>
     <string name="sms_security_check_limit_always_confirm">Завжди підтверджувати</string>
+    <string name="additional_buttons_title">Додаткові кнопки</string>
 </resources>
